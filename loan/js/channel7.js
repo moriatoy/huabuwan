@@ -3,6 +3,19 @@ $(function(){
     
     getNum();  //统计点击数
 
+    jigsaw.init({
+        el: document.getElementById('verification'),
+        onSuccess: function () {
+
+        },
+        onFail: function () {
+
+        },
+        onRefresh: function () {
+
+        }
+    })
+
 });
 
 // 校验手机
