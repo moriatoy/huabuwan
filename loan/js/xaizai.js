@@ -4,6 +4,7 @@ $(function(){
         $('.layer-box').show();
     }
     $.get(urlcore + "/api/h5/version",function(data){
+        console.log(data)
         var type = getMobileType();
         var array = [];
         for (var i = 0; i < data.data.length; i++) {
